@@ -17,8 +17,11 @@ This repository contains two main projects: one focused on Airbnb data analysis 
   - [Results](#results-2)
 - [Project 3: Spotify Valence](#project-3-spotify-valence)
   - [Objectives](#objectives-3)
-  - [Directory Structure](#directory-structure-3)
-  - [Results](#results-3)
+  - [Data Sources](#data-sources)
+  - [Methodology](#methodology)
+  - [How to Run](#how-to-run)
+  - [Results and Analysis](#results-and-analysis)
+  - [Additional Notes](#additional-notes)
 - [Environment Setup](#environment-setup)
 
 ---
