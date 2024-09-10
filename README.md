@@ -15,6 +15,10 @@ This repository contains two main projects: one focused on Airbnb data analysis 
   - [Objectives](#objectives-2)
   - [Directory Structure](#directory-structure-2)
   - [Results](#results-2)
+- [Project 3: Violent vs. Nonviolent Campaigns](#spotify-valence)
+  - [Objectives](#objectives-3)
+  - [Directory Structure](#directory-structure-3)
+  - [Results](#results-3)
 - [Environment Setup](#environment-setup)
 
 ---
@@ -71,42 +75,6 @@ This project examines the effectiveness of violent and nonviolent campaigns. The
 ### Results
 - The analysis demonstrates that nonviolent campaigns are more likely to succeed than violent campaigns, though there are notable exceptions.
 - Machine learning models predict campaign outcomes with a certain level of accuracy based on features such as duration, scale, and type of support.
-
----
-
-## Environment Setup
-
-Both projects rely on Python and several external libraries. The following steps outline how to set up the environment:
-
-1. Ensure you have Python 3.7+ installed on your system.
-2. Create a virtual environment for the projects:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-3. (Optional) Install Jupyter if you plan to run the notebooks:
-   ```bash
-   pip install jupyter
-   ```
-
---- 
-
-Here’s a draft `README.md` for your project, focusing on the investigation of the *valence* metric used by Spotify:
-
----
-
-# Spotify Valence Metric Investigation
-
-This project explores the *valence* metric used by Spotify to measure the happiness of a track. Valence was originally developed by Echo Nest, which Spotify acquired in 2014. Although the exact calculation of valence is proprietary, this project aims to reverse-engineer and understand the metric using available Spotify data and additional sources.
-
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Objectives](#objectives)
-- [Data Sources](#data-sources)
-- [Methodology](#methodology)
-- [How to Run](#how-to-run)
-- [Results and Analysis](#results-and-analysis)
-- [Additional Notes](#additional-notes)
 
 ---
 
@@ -176,6 +144,22 @@ The *valence* metric quantifies the happiness of a track, and understanding its 
 
 - The project will contribute to the understanding of how Spotify measures valence and can potentially improve the accuracy of mood predictions in music.
 - Further research may include refining the model with additional data or exploring alternative features.
+
+
+## Environment Setup
+
+Both projects rely on Python and several external libraries. The following steps outline how to set up the environment:
+
+1. Ensure you have Python 3.7+ installed on your system.
+2. Create a virtual environment for the projects:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+3. (Optional) Install Jupyter if you plan to run the notebooks:
+   ```bash
+   pip install jupyter
+   ```
 
 ---
 
